@@ -1,0 +1,90 @@
+.mydiv h1 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -20px;
+     /* margin-bottom: 50px; */
+}
+body {
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(45deg, #083c9c, #6a108e); 
+}
+button {
+    background: #ff2963;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+button[disabled] {
+    background: #f97fa0;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+textarea {
+    width: 400px;
+    height: 100px;
+    background: #403d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 10 px;
+    resize: none;
+    text-align: justify;
+    white-space: normal;
+}
+
+textarea::placeholder{
+    font-size: 15px;
+    color: #c9c9c9;
+}
+.mydiv{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        min-height: 300px;
+        background: linear-gradient(45deg, #010758, #490d61);
+        color: #fff;
+        gap: 0px;
+        
+}
+.row{
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+select{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 30px;
+    padding: 0 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #a0a0a08f;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ff2963;
+    border-radius: 10px;
+}
